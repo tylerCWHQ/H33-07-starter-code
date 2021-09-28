@@ -6,19 +6,25 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Tree wiki</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Overlock:wght@700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <div class="main">
+
     <div class="title">
-        <h1>Tree wiki</h1>
+        <h1>The Tree Encyclopedia</h1>
     </div>
     <div class="container">
 
         <div class="index">
-            <h3>index</h3>
-            <hr>
+            <h3>Index</h3>
             <p><button id="oak">Oak</button></p>
             <p><button id="beech">Beech</button></p>       
-            <p><button id="pinetree">pinetree</button></p>
+            <p><button id="pinetree">Pinetree</button></p>
         </div>
         <div class="content">
             <iframe id="i_content" src="oak_content.html"
@@ -33,9 +39,10 @@
 
     </div>
 
-    <div class="footer">
-        (c) 2021
+
+
     </div>
+
 
     <script>
         $("#oak").click(function(){
