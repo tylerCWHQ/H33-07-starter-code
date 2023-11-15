@@ -24,7 +24,7 @@
             <h3>Index</h3>
             <p><button id="oak">Oak</button></p>
             <p><button id="beech">Beech</button></p>
-
+            <p><button id="blackw">Black walnut</button></p>
         </div>
         <div class="content">
             <iframe id="i_content" src="oak_content.html"
@@ -54,7 +54,11 @@
             $("#i_summary").attr("src","beech_summary.html");
 
         })
+        $("#blackw").click(function(){
+            $("#i_content").attr("src","blackwalnutcontent.html");
+            $("#i_summary").attr("src","blackwalnutsummary.html");
 
+        })
         /* This will not be merged !  */
 
 
